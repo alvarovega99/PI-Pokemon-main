@@ -95,7 +95,7 @@ router.get('/:id', async (req, res) => {
             let pokemon = await Pokemon.findOne({ where: { id: id } })
             res.status(200).json(pokemon);
         } catch (error) {
-            res.send("El id no pertenece a un pokemon creado ");
+            res.status(400).send("El id no pertenece a un pokemon creado ");
         }
     }
     else {
