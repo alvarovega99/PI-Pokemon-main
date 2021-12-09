@@ -69,7 +69,12 @@
     border-radius: 5px;
 }
 
+
+
 .cuerpo-mensaje{
     text-align: left;
     color: white;
+}
+.check :hover{
+    border-bottom: 1px solid #F5CE42;
 }
