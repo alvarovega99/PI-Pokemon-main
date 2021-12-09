@@ -9,8 +9,7 @@ const initialState = {
   mostrar:[],
   pokemons: [],
   busqueda: [],
-  pokemonsBD: [],
-  pokemonsApi: [],
+
   loading: {
     loading: false,
     msg: ''
