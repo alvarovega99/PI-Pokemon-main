@@ -29,7 +29,7 @@
     border:1px solid #F5CE42;
     padding: 5px;
     justify-content: left;
-    width: 50%;
+    width: 52%;
     text-align: center;
     color: #F5CE42;
     
@@ -48,6 +48,7 @@
     border: none;
     font-weight: bold;
     padding: 5px 10px;
+    font-size: 15px;
     
 }
 
