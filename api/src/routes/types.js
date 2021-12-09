@@ -34,7 +34,12 @@ router.get('/', async (req, res) => {
                     await Type.create({
                         name: name.name,
                     });
-                    res.status(200).json(tipos)
+
+                    const types = await Type.findAll({
+                        attributes: ['id', 'name']
+                    })
+
+                    res.status(200).json(types)
                 } catch (error) {
                     res.status(400).send(error.message);
                 }
