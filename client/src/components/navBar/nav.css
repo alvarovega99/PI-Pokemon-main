@@ -32,6 +32,9 @@
     
 
 }
+.link-nav:hover{
+    border-bottom:1px solid #F5CE42 ;
+}
 .contenedor-links{
     display: flex;
     justify-content: initial;
@@ -56,4 +59,7 @@
     border: 1px solid #F5CE42;
     margin-right: 20px;
 
+}
+.boton-volver:hover{
+    background-color: black;
 }
