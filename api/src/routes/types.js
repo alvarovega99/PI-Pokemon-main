@@ -9,14 +9,12 @@ const { response } = require('express');
 router.get('/', async (req, res) => {
 
     try {
-        const types = await Type.findAll(
-            {
-                attributes: ['id', 'name']
-            }
-        )
+        const types = await Type.findAll({
+            attributes: ['id', 'name']
+        })
 
-        if (types.length > 0) {
-            res.status(200).json(types)
+        if (types.length !== 0) {
+            res.status(200).send(types)
         } else {
             const tipos = []
             await axios('https://pokeapi.co/api/v2/type/')
@@ -36,14 +34,15 @@ router.get('/', async (req, res) => {
                     await Type.create({
                         name: name.name,
                     });
+                    res.status(200).json(tipos)
                 } catch (error) {
-                    console.log(error);
+                    res.status(400).send(error.message);
                 }
             });
         }
 
     }catch (error) {
-        res.send(error.message)
+        res.status(400).send(error.message);
     }
 })
 
