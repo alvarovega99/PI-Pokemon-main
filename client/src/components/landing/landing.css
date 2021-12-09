@@ -1,0 +1,32 @@
+.contenedor-principal-lan{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.img-landing{
+    
+    background-image: url('../../img/pokeLan.png');
+    background-repeat: no-repeat;
+    background-position: 50% ;
+    background-size:contain;
+    height: 700px;
+    margin-top: 100px;
+
+}
+
+
+
+
+.imagen-izquierda{
+    height: 400px;
+    position: relative;
+    top: 270px;
+}
+
+.imagen-izquierda :hover{
+    transform: translateY(-10px);
+    transition: 0.4s ease-out;
+    box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.904), 0 17px 17px 0 rgba(0, 0, 0, .5);
+    
+   
+}

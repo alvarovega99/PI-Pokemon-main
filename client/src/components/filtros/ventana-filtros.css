@@ -1,0 +1,69 @@
+.ventana-filtros{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+.contenido-filtros{
+    position: absolute;
+    display: block;
+    width: 20%;
+    left: 250px;
+    z-index: 200;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.904), 0 17px 17px 0 rgba(0, 0, 0, .5);
+    background-color: #202020;
+    color: #a38a30;
+}
+.contenido-filtros h3{
+    text-align: left;
+}
+.botones-fil{
+    display: flex;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #202020;
+    border-radius: 5px;
+    margin: 5px;
+    border:1px solid #F5CE42;
+    padding: 5px;
+    justify-content: left;
+    width: 50%;
+    text-align: center;
+    color: #F5CE42;
+    
+
+    
+}
+.botones-fil:hover{
+    background-color: rgba(245, 56, 56, 0.548);
+}
+
+.boton-cerrar-fil{
+    position: relative;
+    left: 90%;
+    display: block;
+    background-color: rgba(255, 0, 0, 0.705);
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    
+}
+
+.boton-cerrar-fil:hover{
+    background-color: red;
+}
+.select-filtros{
+    display: flex;
+    flex: 1;
+    padding: 5px;
+    border-radius: 10px;
+    color: #F5CE42;
+    margin: 0;
+    width: 60%;
+    background-color: #202020;
+    
+
+    border: 1px solid #F5CE42;
+}

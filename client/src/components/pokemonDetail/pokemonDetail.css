@@ -1,0 +1,66 @@
+.contenedor-pokemon{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 100%;
+    margin-bottom: 10rem;
+  
+}
+.titi{
+    font-size: 3rem;
+    color: #F5CE42;
+}
+.general-titulo{
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: left;
+    color: #F5CE42;
+}
+.informacion-general{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: #F5CE42;
+    padding: 2rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+}
+
+.habilidad{
+    color: #F5CE42;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    border-bottom: 1px solid #4b4a47;
+}
+.habilidad h3 {
+    text-align: left;
+}
+.habilidad span{
+    position: relative;
+    bottom: 4px;
+    margin-left: 5px;
+
+}
+
+.img-list{
+    margin-top: 100px;
+    display: block;
+    width: 90%;
+    height: 730px;
+}
+.progress{
+    color: indianred;
+}
+.progress {
+    width: 50%;
+    height: 25px;
+    
+}
+
+.tipo-detail{
+    position: relative;
+    top:80px;
+    color:#F5CE42 ;
+    border-right: 1px solid  #F5CE42;
+    border-left:1px solid  #F5CE42;
+}

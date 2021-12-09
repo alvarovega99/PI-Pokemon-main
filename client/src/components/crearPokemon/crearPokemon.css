@@ -1,0 +1,70 @@
+.contenedor{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 70px;
+    margin-top: 1rem;
+
+}
+
+.imagen{
+    display: block;
+    background-image: url('../../img/Charizard.png');
+    background-repeat: no-repeat;
+    background-position: 50% ;
+    background-size:contain;
+
+}
+.titulo-crear{
+    text-align: center;
+    font-size: 4rem;
+    border-bottom: 1px solid rgba(163, 160, 160, 0.164);
+    color: #F5CE42;
+}
+
+.formulario-crear{
+    display : block;
+    width: 90%;
+
+}
+.campo{
+    display:flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.label{
+    flex: 0 0 100px;
+    text-align: left;
+    color: #F5CE42 ;
+}
+
+.input-buscar{
+    flex: 1;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    color: rgb(248, 100, 46);
+    margin: 0;
+    background-color: #202020;
+    border: 1px solid #F5CE42;
+}
+.boton-crear{
+    padding: 10px;;
+    width: 100%;; 
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(236, 117, 73);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.boton-crear:hover{
+    background-color: rgba(184, 132, 64, 0.425);
+    color:rgba(236, 116, 73, 0.788); ;
+    
+
+}
+
+

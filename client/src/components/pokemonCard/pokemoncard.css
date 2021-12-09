@@ -1,0 +1,155 @@
+
+
+
+
+
+.pokemon{
+    margin-top: 2rem;
+    border-radius: 5px ; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    height: 590px;
+    
+}
+.fondo{
+    
+    height: 250PX;
+    
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.pokemon_contenido{
+    position: relative;
+    left:  5px;
+    background-color: white;
+    padding-bottom: 30px;
+    width: 98%;
+    height: 290px;
+    top: 15px;
+    border-radius: 5px;
+
+    
+
+    
+
+}
+.pokemon:hover{
+    transform: translateY(-10px);
+    transition: 0.4s ease-out;
+    box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.904), 0 17px 17px 0 rgba(0, 0, 0, .5);
+    
+   
+}
+.pokemon_nombre{
+    position: relative;
+    top: 20px;
+    font-size: 1.7em;
+    font-weight: bold;
+     
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    border-bottom: 1px solid rgba(70, 69, 69, 0.274);
+    padding-bottom: 1rem;
+    text-shadow: 1px 10px 15px rgba(69, 69, 75, 0.664);
+}
+
+.pokemon_img{
+    margin-top: 2rem;
+    max-width: 90%;
+    height: 100%;
+    position: relative;
+    z-index: 100;
+    top: 40px;
+    right:100px;
+
+    
+    
+}
+
+.pokemon_tipo{
+    font-size: 20px;
+}
+    
+
+.caracteristicas{
+    position: relative;
+   bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    border-bottom:1px solid rgba(128, 128, 128, 0.397);
+    line-height : 10px;
+    height: 35%;
+    
+    
+}
+.ataque{
+    border-right: 1px solid rgba(128, 128, 128, 0.452);
+    width: 100%;
+    font-size: 20px;
+
+    
+}
+.vida{
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.tipos{
+    position: relative;
+    bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+    
+}
+.tipos-titulo{
+   position: relative;
+   bottom: 65px;
+   font-size: 25px;
+   
+}
+.tipos H4 {
+    position: relative;
+    bottom: 40px;
+    margin-left: 10px;
+    
+}
+
+.fire,.dragon,.fairy{
+    background-image: url('../../img/fondonar2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.water,.ice{
+    background-image: url('../../img/fondoceleste.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grass,.bug,.ground{
+    background-image: url('../../img/fondoVerde.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark, .normal, .SinTipo{
+    background-image: url('../../img/fondoNegro.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.psychic, .poison{
+    background-image: url('../../img/fondoVioleta.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.electric{
+    background-image: url('../../img/fondoAmarillo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

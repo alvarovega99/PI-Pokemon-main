@@ -1,0 +1,75 @@
+.tec{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+.creado{
+    display: none;
+}
+.ventana-titulo{
+    color :#F5CE42;
+    text-align: left;
+    border-bottom:1px solid rgba(128, 128, 128, 0.315) ;
+    width: 80%;
+   
+    
+
+}
+.boton-abrir{
+    background-color: #b89b35;
+    flex: 1;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    margin: 0;
+    width: 80%;
+    border: 1px solid #F5CE42;
+}
+.boton-abrir:hover{
+    background-color: #F5CE42;
+}
+.contenido{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    border-radius: 5px;
+    width: 50%;
+    box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.904), 0 17px 17px 0 rgba(0, 0, 0, .5);
+    background-color: #202020;
+    background-repeat: no-repeat;
+    color: #F5CE42;
+    background-size: cover;
+    
+}
+.forma{
+    width: 100%;
+    margin-left: 5rem;
+}
+.formulario-tipos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.checkbox-seleccion{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.boton-aceptarform{
+    padding: 10px;
+    width: 50%;
+    margin: 15px 0;
+    background-color: rgb(236, 117, 73);
+    border: none;
+    border-radius: 5px;
+}
+
+.cuerpo-mensaje{
+    text-align: left;
+    color: white;
+}

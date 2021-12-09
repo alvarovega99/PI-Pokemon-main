@@ -1,0 +1,63 @@
+.contenedor-filtros1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.boton-filtros{
+    color: #F5CE42;
+    position: relative;
+    border: 1px solid #F5CE42;
+    background-color: #202020;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    
+    
+}
+.boton-filtros:hover{
+    background-color: #000000;
+}
+.paginacion{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+    
+    border:2px solid #F5CE42;
+    border-radius: 5px;
+    
+    
+}
+.paginacion span{
+    display: block;
+    color:#F5CE42 ;
+    border-bottom: 1px solid #F5CE42;;
+    
+}
+.boton-pag{
+    color: #F5CE42;
+    border: none;
+    background-color: #202020;
+    font-weight: bold;
+    font-size: 15px;
+    width: 50%;
+    height: 100%;
+    
+    border-right: 1px solid;
+    
+    
+    
+}
+.boton-pag:hover{
+    background-color: #000000;
+    background-size: cover;
+    
+}
+
+.contenido-filtros{
+    display: none;
+}
